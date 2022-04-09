@@ -1,0 +1,159 @@
+.Fondo1erseccion {
+    background-image: url("Fondo4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:hover {
+    color: rgb(183, 101, 218);
+}
+
+a {
+    color: black;
+}
+
+body {
+    margin: 0px;
+}
+
+.NavBar {
+    background-color: rgb(223, 110, 154);
+}
+
+.Navigation {
+    font-family: 'Spline Sans';
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.Cora {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Tarjeta {
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    position: absolute;
+    right: 9%;
+    top: 21%;
+}
+
+.TarjetaFoto {
+    width: 15rem;
+}
+
+.TarjetaNombre {
+    font-family: 'Merriweather Sans';
+    font-size: 1.25rem;
+}
+
+.DatosPersonales {
+    width: 62%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:rgba(255, 255, 255, 0.674);
+    display: inline-flex;
+    align-items: center;
+}
+
+.DPTitulo {
+    padding-left: 20px;
+    font-family: 'Merriweather Sans';
+    font-size: 20px;
+}
+
+.PantoneCont {
+    width: 62%;
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.Pantone-1 {
+    display: flex;
+    background-color: rgb(193,202,157);
+}
+
+.Pant-img {
+    width: 110px;
+}
+
+ul {
+    padding-left: 8px;
+}
+
+.Pantone-2 {
+    display: flex;
+    background-color: rgb(118,163,160);
+    align-items: center;
+}
+
+.Pantone-3 {
+    display: flex;
+    background-color: rgb(164,217,149);
+}
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.Dir {
+    margin-top: 0px;
+}
+
+.FotosCont {
+    display: flex;
+    width: 62%;
+    background-color: rgb(223,166,166);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.TrabajosImg {
+    width: 400px;
+}
+
+.Infodefotos {
+    margin-right: 10px;
+}
+
+.Infodefotos > ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:fit-content;
+    background-color:rgba(255, 255, 255, 0.656);
+    font-family: 'Merriweather Sans';
+    font-size: 18px;
+}
+
+.Segunda {
+    background-color: rgb(223, 110, 154);
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.QRImg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+}
